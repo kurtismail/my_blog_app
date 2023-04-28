@@ -4,6 +4,7 @@ import Details from "../pages/Details";
 import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
 import CreateBlog from "../components/CreateBlog";
+import Footer from "../components/Footer";
 
 const AppRoter = () => {
   return (
@@ -14,6 +15,7 @@ const AppRoter = () => {
         <Route path="/:id" element={<Details />} />
         <Route path="/create" element={<CreateBlog />} />
       </Routes>
+      <Footer />
     </>
   );
 };

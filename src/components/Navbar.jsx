@@ -18,7 +18,7 @@ const Navbar = () => {
               ></img>
             </div>
             <div className="px-2 font-bold text-md lg:text-lg  flex align-middle">
-              Sez Blog
+              My Blog
             </div>
           </div>
 
