@@ -5,11 +5,13 @@ import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
 import CreateBlog from "../components/CreateBlog";
 import Footer from "../components/Footer";
+import Toggle from "../components/toggle/Toggle";
 
 const AppRoter = () => {
   return (
     <>
       <Navbar />
+      <Toggle />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<Details />} />
