@@ -56,7 +56,7 @@ const CreateBlog = () => {
               <div className="flex flex-col flex-1">
                 <label
                   htmlFor="message"
-                  className=" mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className=" mb-2 text-sm font-medium text-gray-900   dark:text-gray-700"
                 >
                   Title
                 </label>
@@ -73,7 +73,7 @@ const CreateBlog = () => {
 
                 <label
                   htmlFor="large-input"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700"
                 >
                   Detail
                 </label>

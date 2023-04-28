@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-2">
-        <div className="mx-auto max-w-7xl lg:mx-0 flex border py-2 bg-slate-100 rounded-lg">
+        <div className="mx-auto max-w-7xl lg:mx-0 flex border py-2  bg-slate-100  rounded-lg">
           <div className="flex flex-1 flex-row items-center ">
             <div className="px-2 ">
               <img
@@ -28,7 +28,7 @@ const Navbar = () => {
               onClick={() => navigate("/")}
             >
               POSTS
-              <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -right-2 dark:border-gray-900">
+              <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500  border-2 border-white rounded-full -top-2 -right-2 dark:border-gray-900">
                 {api?.length || 0}
               </div>
             </div>

@@ -1,13 +1,14 @@
 .t {
   width: 50px;
-  height: 25px;
+  height: 21px;
   border-radius: 20px;
   border: 1px solid #a29e9e;
   box-shadow: 2px 2px 5px;
   background-color: white;
   position: fixed;
-  top: 80px;
-  right: 10px;
+  top: 85px;
+  right: 5%;
+  bottom: 10px;
   z-index: 999;
   display: flex;
   align-items: center;
@@ -28,4 +29,12 @@
   border: 1px solid #b0adad;
   box-shadow: 1px 1px 5px;
   position: absolute;
+}
+
+@media screen and (max-width: 786px) {
+  .t {
+    right: 5%;
+    top: 80px;
+  }
+
 }
