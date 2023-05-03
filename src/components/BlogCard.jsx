@@ -95,7 +95,7 @@ const BlogCard = () => {
                   <textarea
                     id="message"
                     rows={3}
-                    className="block p-2.5  w-100 text-sm font-bold text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="block p-3  w-100 text-sm font-bold text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-200 dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     defaultValue={veri?.body}
                     name="body"
                     onChange={handleChange}
