@@ -27,7 +27,7 @@ const Footer = () => {
                                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow me</h2>
                                 <ul class="text-gray-600 dark:text-gray-400 font-medium">
                                     <li class="mb-4">
-                                        <a href="https://github.com/kurtismail" class="hover:underline ">Github</a>
+                                        <a href="https://github.com/kurtismail" class="hover:underline ">GitHub</a>
                                     </li>
                                 </ul>
                             </div>
