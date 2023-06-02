@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import useVeriCalls from "../hooks/useVeriCalls";
+import "../css/blog.css"
 
 const Blog = () => {
   const { getData } = useVeriCalls();
@@ -22,17 +23,18 @@ const Blog = () => {
                   key={id}
                   className="flex max-w-xl flex-col items-start justify-between mx-auto border p-2 rounded-lg shadow-lg cursor-pointer "
                 >
-                  <div
-                    className="group relative dark:bg-gray-200"
+                  <div className="card"
                     onClick={() => navigate(`${id}`, { state: data })}
                   >
-                    <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                      <span className="absolute inset-0" />
-                      {title}
-                    </h3>
-                    <p className="mt-5 text-sm leading-6 text-gray-600  line-clamp-3">
-                      {body}
-                    </p>
+                    <a className="card1">
+                      <p>{title}</p>
+                      <p className="small">{body}</p>
+                      <div className="go-corner">
+                        <div className="go-arrow">
+                          →
+                        </div>
+                      </div>
+                    </a>
                   </div>
                 </article>
               );
