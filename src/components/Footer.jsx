@@ -32,10 +32,10 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div>
-                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">More</h2>
                                 <ul class="text-gray-600 dark:text-gray-400 font-medium">
                                     <li class="mb-4">
-                                        <a href="https://portfolyo-dmft80lqa-kurtismail.vercel.app/" class="hover:underline">Privacy Policy</a>
+                                        <a href="https://portfolyo-dmft80lqa-kurtismail.vercel.app/" class="hover:underline"> portfolyo</a>
                                     </li>
                                 </ul>
                             </div>
