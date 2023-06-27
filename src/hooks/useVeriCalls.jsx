@@ -36,7 +36,7 @@ const useVeriCalls = () => {
 
   const deleteVeri = (id) => deleteBaseVeri("api", id);
 
-  //!------------- POST CALLS ----------------
+  // //!------------- POST CALLS ----------------
   const postBaseVeri = async (newVeri, url) => {
     try {
       await axios.post(BASE_URL + `${url}`, newVeri);
