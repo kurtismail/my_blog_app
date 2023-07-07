@@ -24,7 +24,7 @@ const useVeriCalls = () => {
   const getData = () => getBaseVeri("api");
 
   //!------------- DELETE CALLS ----------------
-  const deleteBaseVeri = async (url) => {
+  const deleteBaseVeri = async (url, id) => {
     try {
       await axios.delete(BASE_URL + `${url}/${id}/`);
       getBaseVeri(url);
